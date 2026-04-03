@@ -112,7 +112,7 @@ public class App {
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nezha.9logo.eu.org:443");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "c0FdihFZ8XpqXFbu7muAAPkD5JmeVY4g");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "f1.rustix.me:32876");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "f1.rustix.me");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
         NAME = getEnvValue(envFromFile, "NAME", "Rustix-DE");
         
