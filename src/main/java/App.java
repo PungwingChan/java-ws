@@ -108,13 +108,13 @@ public class App {
         }
         
         // 默认值变量
-        UUID = getEnvValue(envFromFile, "UUID", "08fc73b6-0753-489a-a5d7-d6ccb71e9e4e");
+        UUID = getEnvValue(envFromFile, "UUID", "cd1a3d26-6abf-4474-82ee-885991ab3c42");
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nezha.9logo.eu.org:443");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "c0FdihFZ8XpqXFbu7muAAPkD5JmeVY4g");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "f1.rustix.me");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "free.minecraft-hoster.com");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
-        NAME = getEnvValue(envFromFile, "NAME", "Rustix-DE");
+        NAME = getEnvValue(envFromFile, "NAME", "MineCraft-DE");
         
         // 处理WSPATH
         String wspathFromEnv = getEnvValue(envFromFile, "WSPATH", null);
