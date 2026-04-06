@@ -108,13 +108,13 @@ public class App {
         }
         
         // 默认值变量
-        UUID = getEnvValue(envFromFile, "UUID", "cd1a3d26-6abf-4474-82ee-885991ab3c42");
+        UUID = getEnvValue(envFromFile, "UUID", "bb969a97-2cca-449b-a7b7-42fe478f2fce");
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nezha.9logo.eu.org:443");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "c0FdihFZ8XpqXFbu7muAAPkD5JmeVY4g");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "free.minecraft-hoster.com");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "5.231.46.3");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
-        NAME = getEnvValue(envFromFile, "NAME", "MineCraft-DE");
+        NAME = getEnvValue(envFromFile, "NAME", "GameServer-DE");
         
         // 处理WSPATH
         String wspathFromEnv = getEnvValue(envFromFile, "WSPATH", null);
