@@ -108,13 +108,13 @@ public class App {
         }
         
         // 默认值变量
-        UUID = getEnvValue(envFromFile, "UUID", "9f2ce5ad-1aa0-4d3a-bb9a-015a87fbfbc0");
+        UUID = getEnvValue(envFromFile, "UUID", "ff94c281-a1f8-6d7f-e176-eaf9abb5ff43");
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nezha.9logo.eu.org:443");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "c0FdihFZ8XpqXFbu7muAAPkD5JmeVY4g");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "sgp1.bytenut.cc");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "us6.bytenut.cc");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
-        NAME = getEnvValue(envFromFile, "NAME", "ByteNut-SG");
+        NAME = getEnvValue(envFromFile, "NAME", "ByteNut-USW");
         
         // 处理WSPATH
         String wspathFromEnv = getEnvValue(envFromFile, "WSPATH", null);
