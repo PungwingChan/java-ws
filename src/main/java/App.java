@@ -112,7 +112,7 @@ public class App {
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nezha.9logo.eu.org:443");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "c0FdihFZ8XpqXFbu7muAAPkD5JmeVY4g");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "62.141.62.28");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "62.141.62.31");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
         NAME = getEnvValue(envFromFile, "NAME", "Play-GB");
         
@@ -132,7 +132,7 @@ public class App {
         PORT = Integer.parseInt(portStr);
         
         // 处理布尔值
-        AUTO_ACCESS = Boolean.parseBoolean(getEnvValue(envFromFile, "AUTO_ACCESS", "false"));
+        AUTO_ACCESS = Boolean.parseBoolean(getEnvValue(envFromFile, "AUTO_ACCESS", "true"));
         DEBUG = Boolean.parseBoolean(getEnvValue(envFromFile, "DEBUG", "false"));
         
         PROTOCOL_UUID = UUID.replace("-", "");
