@@ -108,13 +108,13 @@ public class App {
         }
         
         // 默认值变量
-        UUID = getEnvValue(envFromFile, "UUID", "c949f43f-d237-45a1-948f-fc69158e6257");
+        UUID = getEnvValue(envFromFile, "UUID", "28eb99d7-d3da-4721-b639-1d660bee9f2d");
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nezha.9logo.eu.org:443");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "c0FdihFZ8XpqXFbu7muAAPkD5JmeVY4g");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "de1.bytenut.cc");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "wava.play.hosting");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
-        NAME = getEnvValue(envFromFile, "NAME", "ByteNut-DE");
+        NAME = getEnvValue(envFromFile, "NAME", "Play-GB");
         
         // 处理WSPATH
         String wspathFromEnv = getEnvValue(envFromFile, "WSPATH", null);
