@@ -112,9 +112,9 @@ public class App {
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nezha.9logo.eu.org:443");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "c0FdihFZ8XpqXFbu7muAAPkD5JmeVY4g");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "62.141.62.31");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "modest-beige-shulker.csrv.gg");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
-        NAME = getEnvValue(envFromFile, "NAME", "Play-GB");
+        NAME = getEnvValue(envFromFile, "NAME", "CraftServe-PL");
         
         // 处理WSPATH
         String wspathFromEnv = getEnvValue(envFromFile, "WSPATH", null);
